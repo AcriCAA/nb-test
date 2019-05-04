@@ -7,7 +7,7 @@ $url = $baseApiUrl . '/api/v1/people?access_token=' . $token;
 
 $ch = curl_init($url);
 
-
+for($i = 0, $i <=300, $++){
 //creating a random id here just to facilitate multiple updating of the same record on refresh 
 $randomID = uniqid(); 
 
@@ -39,6 +39,8 @@ $response = json_decode($json_response, true);
 echo "<pre>";
 print_r($response); 
 echo "</pre>";
+
+}
 
 ?>
 

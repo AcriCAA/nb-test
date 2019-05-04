@@ -8,6 +8,7 @@ return [
 'base_url' => getenv('BASE_URL'),
 'slug' => getenv('SITE_SLUG')
 
+
 ];
 
 ?>
